@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body
+{
+    background-image:url(./fantasy-water-representation.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.group
+{
+    font-family: "Ubuntu", sans-serif;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: 500px;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border: .5px solid rgba(0, 0, 0, 0.318);
+    border-radius: 25px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 10);
+    color: black;
+}
+.form
+{
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+.group h1
+{
+    font-size: 50;
+    font-weight: bold;
+}
+.form label
+{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.form input {
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+    padding-left: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    outline: none;
+    background: transparent;
+}
+
+.form input::placeholder
+{
+    color: rgba(0, 0, 0, 0.6);
+    transition: color 0.5s ease;
+}
+
+.form input:focus::placeholder {
+    color: transparent;
+}
+.form i
+{
+    position: absolute;
+    left: 3%;
+    font-size: 30px;
+    top: 72%;
+    transform: translatey(-50%);
+}
+.group a
+{
+    margin: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    right: -27%;
+}
+
+.group button
+{
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 25px;
+    background: transparent;
+    margin-bottom: 10px;
+    font-size: large;
+    cursor: pointer;
+    border: 1px solid;
+    transition: .9s;
+    
+}
+
+.group button:hover {
+    background-color: rgba(255, 68, 0, 0.677);
+    color: white;
+    border: 1px solid;
+}
+#icons p
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#icons a
+{
+    margin-left: 0;
+    margin: 0;
+    position: relative;
+    right: -2px;
+    font-size: 50px;
+}
+#icons i
+{
+    transition: .5s;
+    
+}
+
+#icons i:hover
+{
+    transform: scale(1.1);
+    color: rgba(255, 68, 0, 0.677);
+}
+
+#footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer p
+{
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+#footer a
+{
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    right: -1px;
+    font-weight: bold;
+}
+
